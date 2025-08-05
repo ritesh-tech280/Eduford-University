@@ -415,6 +415,12 @@ h3  {
     padding: 15px 0 25px;
     margin-left: 50px;
  }
+
+ @media screen and (max-width:500px){
+    .about-col p,a {
+        margin-left: 15px;
+    }
+ }
  .btn{
     display: inline-block;
     text-decoration: none;
